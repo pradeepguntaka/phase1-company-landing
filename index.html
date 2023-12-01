@@ -30,20 +30,55 @@
         </nav>
     </header>
     <main>
-        <nav class="container-fluid navbar bg-primary" data-bs-theme="dark">
-            <div>
-                <h1>Welcome to our Company</h1><br>
-                <span>This is a brief introduction to what we do</span><br>
-                <button>LearnMore</button>
+        <!-- hero section-->
+        <nav class="navbar bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                
+                <ul class="nav flex-column text-white" >
+                    <li><h2>Welcome to our Company</h2></li>
+                    <li>This is a brief introduction to what we do</li>
+                    <li><a href="#" class="btn btn-outline-light btn-sm mt-3">LearnMore</a></li>
+                </ul>
             </div>
         </nav>
+        <!-- Service section -->
+        <section id="servsection" class="services bg-light border p-5">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2>Service 1</h2>
+                    <p class="lead text-muted">Description of Services.</p>
+                </div>
 
+                <!-- cards -->
+                <div
+                    class="row my-5 justify-content-center align-content-center align-item-center align-content-center">
+                    <div class="col-8 col-lg-4 col-xl-3">
+                        <div class="card border-1">
+                            <div class="card-body text-center py-4">
+                                <h4 class="card-title">Roller Blinds</h4>
+                                <p class="lead card-subtitle">Premium Roller sheer shades</p>
+                                <a href="#" class="btn btn-outline-secondary btn-sm mt-3">Request Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 col-lg-4 col-xl-3">
+                        <div class="card border-1">
+                            <div class="card-body text-center py-4">
+                                <h4 class="card-title">Faux Blinds</h4>
+                                <p class="lead card-subtitle">Premium faux woods blinds</p>
+                                <a href="#" class="btn btn-outline-secondary btn-sm mt-3">Request Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="container-fluid bg-secondary p-5">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-                <ul class="nav flex-column">
+    <footer class="fixed bottom container-fluid bg-secondary p-5">
+            <div class="flex-column">
+                <ul class="nav flex-column text-white justify-content-center text-center">
                     <li>Company Name</li>
-                    <li>Contact me at: <a href="mailto:pradeepguntaka@gmail.com">pradeepguntaka@gmail.com</a>
+                    <li>Contact me at: <a href="mailto:pradeepguntaka@gmail.com" class="text-white">pradeepguntaka@gmail.com</a>
                     </li>
                 </ul>
             </div>
